@@ -10,7 +10,7 @@ namespace StudentRegSys
         private SqlConnection con = new SqlConnection("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=" + System.IO.Path.GetDirectoryName(Application.ExecutablePath) + "\\SUDB.mdf; Integrated Security = True; Connect Timeout = 30");
         private SqlCommand cmd;
         string user;
-        public List<string> modulelist { get; set; }
+        public List<string> modulelist { get; set; } //inheritance 
 
         public Modules(string id)
         {

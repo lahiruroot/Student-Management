@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Modules));
             this.materialLabel1 = new MaterialSkin.Controls.MaterialLabel();
             this.materialLabel2 = new MaterialSkin.Controls.MaterialLabel();
             this.lbxAvailable = new System.Windows.Forms.ListBox();
@@ -71,7 +72,7 @@
             this.lbxAvailable.FormattingEnabled = true;
             this.lbxAvailable.ItemHeight = 16;
             this.lbxAvailable.Location = new System.Drawing.Point(53, 81);
-            this.lbxAvailable.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.lbxAvailable.Margin = new System.Windows.Forms.Padding(4);
             this.lbxAvailable.Name = "lbxAvailable";
             this.lbxAvailable.Size = new System.Drawing.Size(317, 372);
             this.lbxAvailable.TabIndex = 2;
@@ -81,7 +82,7 @@
             this.lbxSelected.FormattingEnabled = true;
             this.lbxSelected.ItemHeight = 16;
             this.lbxSelected.Location = new System.Drawing.Point(428, 81);
-            this.lbxSelected.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.lbxSelected.Margin = new System.Windows.Forms.Padding(4);
             this.lbxSelected.Name = "lbxSelected";
             this.lbxSelected.Size = new System.Drawing.Size(317, 372);
             this.lbxSelected.TabIndex = 3;
@@ -93,7 +94,7 @@
             this.btnClose.Depth = 0;
             this.btnClose.Icon = null;
             this.btnClose.Location = new System.Drawing.Point(617, 482);
-            this.btnClose.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnClose.Margin = new System.Windows.Forms.Padding(4);
             this.btnClose.MouseState = MaterialSkin.MouseState.HOVER;
             this.btnClose.Name = "btnClose";
             this.btnClose.Primary = true;
@@ -110,7 +111,7 @@
             this.btnSave.Depth = 0;
             this.btnSave.Icon = null;
             this.btnSave.Location = new System.Drawing.Point(483, 482);
-            this.btnSave.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnSave.Margin = new System.Windows.Forms.Padding(4);
             this.btnSave.MouseState = MaterialSkin.MouseState.HOVER;
             this.btnSave.Name = "btnSave";
             this.btnSave.Primary = true;
@@ -123,7 +124,7 @@
             // btnAdd
             // 
             this.btnAdd.Location = new System.Drawing.Point(380, 204);
-            this.btnAdd.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnAdd.Margin = new System.Windows.Forms.Padding(4);
             this.btnAdd.Name = "btnAdd";
             this.btnAdd.Size = new System.Drawing.Size(40, 37);
             this.btnAdd.TabIndex = 6;
@@ -134,7 +135,7 @@
             // btnRemove
             // 
             this.btnRemove.Location = new System.Drawing.Point(380, 252);
-            this.btnRemove.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnRemove.Margin = new System.Windows.Forms.Padding(4);
             this.btnRemove.Name = "btnRemove";
             this.btnRemove.Size = new System.Drawing.Size(40, 37);
             this.btnRemove.TabIndex = 7;
@@ -155,7 +156,8 @@
             this.Controls.Add(this.lbxAvailable);
             this.Controls.Add(this.materialLabel2);
             this.Controls.Add(this.materialLabel1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Modules";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Modules";
